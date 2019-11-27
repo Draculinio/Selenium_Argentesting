@@ -1,5 +1,6 @@
 testsProductos\WomenSearchTest.class
-helpers\Helpers.class
-pages\IndexPage.class
+helpers\Waiters.class
 testsProductos\SearchItemsTest.class
 pages\WomenPage.class
+helpers\Helpers.class
+pages\IndexPage.class

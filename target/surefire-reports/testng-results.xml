@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="3" total="9" passed="5" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Voy a seleccionar el color 3]]>
@@ -10,20 +10,43 @@
     <line>
       <![CDATA[Looking for stock articles]]>
     </line>
-    <line>
-      <![CDATA[Voy a intentar que true sea false]]>
-    </line>
   </reporter-output>
-  <suite started-at="2019-11-19T21:10:46 ART" name="testsProductos.WomenSearchTest" finished-at="2019-11-19T21:11:36 ART" duration-ms="50164">
+  <suite started-at="2019-11-26T21:14:15 ART" name="Command line suite" finished-at="2019-11-26T21:15:23 ART" duration-ms="67551">
     <groups>
     </groups>
-    <test started-at="2019-11-19T21:10:46 ART" name="Command line test" finished-at="2019-11-19T21:11:36 ART" duration-ms="50164">
-      <class name="testsProductos.WomenSearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:10:46 ART" name="setUp" finished-at="2019-11-19T21:10:58 ART" duration-ms="11481" status="PASS">
+    <test started-at="2019-11-26T21:14:15 ART" name="Command line test" finished-at="2019-11-26T21:15:23 ART" duration-ms="67551">
+      <class name="testsProductos.SearchItemsTest">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:testsProductos.SearchItemsTest@7403c468]" started-at="2019-11-26T21:14:27 ART" name="beforeAll" finished-at="2019-11-26T21:14:27 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.SearchItemsTest@7403c468]" started-at="2019-11-26T21:14:27 ART" name="setUp" finished-at="2019-11-26T21:14:35 ART" duration-ms="7646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="seeColorChecksLocated()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:10:58 ART" name="seeColorChecksLocated" description="see if elements are located" finished-at="2019-11-19T21:10:58 ART" duration-ms="109" status="PASS">
+        <test-method signature="clickWomen()[pri:0, instance:testsProductos.SearchItemsTest@7403c468]" started-at="2019-11-26T21:14:35 ART" name="clickWomen" finished-at="2019-11-26T21:14:36 ART" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickWomen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.SearchItemsTest@7403c468]" started-at="2019-11-26T21:14:36 ART" name="tearDown" finished-at="2019-11-26T21:14:37 ART" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:testsProductos.SearchItemsTest@7403c468]" started-at="2019-11-26T21:14:37 ART" name="afterAll" finished-at="2019-11-26T21:14:37 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAll -->
+      </class> <!-- testsProductos.SearchItemsTest -->
+      <class name="testsProductos.WomenSearchTest">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:37 ART" name="beforeAll" finished-at="2019-11-26T21:14:37 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:37 ART" name="setUp" finished-at="2019-11-26T21:14:45 ART" duration-ms="7397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seeColorChecksLocated()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:45 ART" name="seeColorChecksLocated" description="see if elements are located" finished-at="2019-11-26T21:14:47 ART" duration-ms="2257" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Voy a seleccionar el color 3]]>
@@ -33,49 +56,78 @@
             </line>
           </reporter-output>
         </test-method> <!-- seeColorChecksLocated -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:10:58 ART" name="tearDown" finished-at="2019-11-19T21:10:59 ART" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:47 ART" name="tearDown" finished-at="2019-11-26T21:14:47 ART" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:10:59 ART" name="setUp" finished-at="2019-11-19T21:11:11 ART" duration-ms="12375" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:47 ART" name="setUp" finished-at="2019-11-26T21:14:56 ART" duration-ms="8239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="womanSearchByPriceLowerFirst()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:11 ART" name="womanSearchByPriceLowerFirst" description="woman search by price lower first" finished-at="2019-11-19T21:11:11 ART" duration-ms="159" status="PASS">
+        <test-method signature="womanSearchByPriceLowerFirst()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:56 ART" name="womanSearchByPriceLowerFirst" description="woman search by price lower first" finished-at="2019-11-26T21:14:58 ART" duration-ms="2576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- womanSearchByPriceLowerFirst -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:11 ART" name="tearDown" finished-at="2019-11-19T21:11:12 ART" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:58 ART" name="tearDown" finished-at="2019-11-26T21:14:59 ART" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:12 ART" name="setUp" finished-at="2019-11-19T21:11:22 ART" duration-ms="10554" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:14:59 ART" name="setUp" finished-at="2019-11-26T21:15:07 ART" duration-ms="7562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="womanSearchByReference()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:22 ART" name="womanSearchByReference" description="woman search by reference" finished-at="2019-11-19T21:11:23 ART" duration-ms="195" status="PASS">
+        <test-method signature="womanSearchByReference()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:07 ART" name="womanSearchByReference" description="woman search by reference" finished-at="2019-11-26T21:15:09 ART" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- womanSearchByReference -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:23 ART" name="tearDown" finished-at="2019-11-19T21:11:23 ART" duration-ms="781" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:09 ART" name="tearDown" finished-at="2019-11-26T21:15:10 ART" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:23 ART" name="setUp" finished-at="2019-11-19T21:11:35 ART" duration-ms="12052" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:10 ART" name="setUp" finished-at="2019-11-26T21:15:21 ART" duration-ms="10988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="womanSearchByStock()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:35 ART" name="womanSearchByStock" description="woman search by stock" finished-at="2019-11-19T21:11:36 ART" duration-ms="226" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="womanSearchByStock()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:21 ART" name="womanSearchByStock" description="woman search by stock" finished-at="2019-11-26T21:15:22 ART" duration-ms="1653" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[El test fallo did not expect to find [true] but found [false]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#selectProductSort"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDM1H7HV', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1611b788150658213678fa2c7f897612
+*** Element info: {Using=id, value=selectProductSort}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: El test fallo did not expect to find [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at testsProductos.WomenSearchTest.womanSearchByStock(WomenSearchTest.java:47)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectProductSort"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDM1H7HV', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1611b788150658213678fa2c7f897612
+*** Element info: {Using=id, value=selectProductSort}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.WomenPage.selectOrderByText(WomenPage.java:26)
+at testsProductos.WomenSearchTest.womanSearchByStock(WomenSearchTest.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -102,7 +154,8 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
 at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -115,21 +168,44 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Looking for stock articles]]>
             </line>
-            <line>
-              <![CDATA[Voy a intentar que true sea false]]>
-            </line>
           </reporter-output>
         </test-method> <!-- womanSearchByStock -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@6121c9d6]" started-at="2019-11-19T21:11:36 ART" name="tearDown" finished-at="2019-11-19T21:11:36 ART" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:22 ART" name="tearDown" finished-at="2019-11-26T21:15:23 ART" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:testsProductos.WomenSearchTest@43738a82]" started-at="2019-11-26T21:15:23 ART" name="afterAll" finished-at="2019-11-26T21:15:23 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAll -->
       </class> <!-- testsProductos.WomenSearchTest -->
+      <class name="testsProductos.BackAndForwardTest">
+        <test-method is-config="true" signature="beforeAll()[pri:0, instance:testsProductos.BackAndForwardTest@51c8530f]" started-at="2019-11-26T21:14:15 ART" name="beforeAll" finished-at="2019-11-26T21:14:15 ART" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testsProductos.BackAndForwardTest@51c8530f]" started-at="2019-11-26T21:14:16 ART" name="setUp" finished-at="2019-11-26T21:14:24 ART" duration-ms="8083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="womenForwardAndBack()[pri:0, instance:testsProductos.BackAndForwardTest@51c8530f]" started-at="2019-11-26T21:14:24 ART" name="womenForwardAndBack" description="adelante y atras con women" finished-at="2019-11-26T21:14:26 ART" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womenForwardAndBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testsProductos.BackAndForwardTest@51c8530f]" started-at="2019-11-26T21:14:26 ART" name="tearDown" finished-at="2019-11-26T21:14:27 ART" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:testsProductos.BackAndForwardTest@51c8530f]" started-at="2019-11-26T21:14:27 ART" name="afterAll" finished-at="2019-11-26T21:14:27 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAll -->
+      </class> <!-- testsProductos.BackAndForwardTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- testsProductos.WomenSearchTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

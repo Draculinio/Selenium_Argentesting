@@ -11,7 +11,7 @@ public class Waiters {
 	private WebDriverWait wait;
 	public Waiters(WebDriver driver, int time){
 		this.driver = driver;
-		wait = new WebDriverWait(driver,time);
+		wait = new WebDriverWait(this.driver,time);
 	}
 	
 	public WebElement waitForClickable(By element) {

@@ -7,7 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="womanSearchByStock"/>
+          <include name="beforeAll"/>
           <include name="tearDown"/>
+          <include name="afterAll"/>
         </methods>
       </class> <!-- testsProductos.WomenSearchTest -->
     </classes>

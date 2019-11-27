@@ -12,10 +12,14 @@ public class WomenPage {
 	private By colorSelection;
 	private WebDriver driver;
 	
+	private By category;
+	
 	public WomenPage(WebDriver driver) {
 		this.driver = driver;
 		selectProductSort = By.id("selectProductSort");
 		colorSelection = By.xpath("//input[@class='color-option  ']");
+		
+		category = By.xpath("//span[@class='cat-name']");
 	}
 	
 	public void selectOrderByText(String text) {
@@ -41,4 +45,9 @@ public class WomenPage {
 		colorElements.get(color).click();
 		
 	}
+	
+	public String getCategoryText() {
+		return driver.findElement(category).getText();
+	}
+	
 }

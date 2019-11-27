@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="testsProductos.WomenSearchTest" time="0.693" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="testsProductos.WomenSearchTest" time="0.497" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -61,21 +61,21 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testsProductos.WomenSearchTest" name="seeColorChecksLocated" time="0.111"/>
-  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByPriceLowerFirst" time="0.16"/>
-  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByReference" time="0.188"/>
-  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByStock" time="0.234">
+  <testcase classname="testsProductos.WomenSearchTest" name="seeColorChecksLocated" time="0.076"/>
+  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByPriceLowerFirst" time="0.154"/>
+  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByReference" time="0.116"/>
+  <testcase classname="testsProductos.WomenSearchTest" name="womanSearchByStock" time="0.151">
     <failure message="El test fallo did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: El test fallo did not expect to find [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.failNotEquals(Assert.java:969)
 	at org.testng.Assert.assertTrue(Assert.java:43)
 	at testsProductos.WomenSearchTest.womanSearchByStock(WomenSearchTest.java:47)
 </failure>
-    <system-err>Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 39270
+    <system-err>Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 17177
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574208685.061][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
-nov. 19, 2019 9:11:26 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1574729678.113][WARNING]: This version of ChromeDriver has not been tested with Chrome version 78.
+nov. 25, 2019 9:54:39 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 </system-err>
   </testcase>
