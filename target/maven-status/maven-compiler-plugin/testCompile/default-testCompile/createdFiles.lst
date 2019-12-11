@@ -1,6 +1,8 @@
 testsProductos\WomenSearchTest.class
+commonSteps\CommonSteps.class
 helpers\Waiters.class
 testsProductos\SearchItemsTest.class
 pages\WomenPage.class
+testsProductos\BackAndForwardTest.class
 helpers\Helpers.class
 pages\IndexPage.class

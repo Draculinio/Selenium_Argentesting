@@ -5,13 +5,25 @@
     <classes>
       <class name="testsProductos.WomenSearchTest">
         <methods>
+          <include name="womanSearchByReference"/>
           <include name="tearDown"/>
+          <include name="womanSearchByPriceLowerFirst"/>
           <include name="afterAll"/>
           <include name="beforeAll"/>
+          <include name="seeColorChecksLocated"/>
           <include name="setUp"/>
           <include name="womanSearchByStock"/>
         </methods>
       </class> <!-- testsProductos.WomenSearchTest -->
+      <class name="testsProductos.BackAndForwardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterAll"/>
+          <include name="beforeAll"/>
+          <include name="setUp"/>
+          <include name="womenForwardAndBack"/>
+        </methods>
+      </class> <!-- testsProductos.BackAndForwardTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

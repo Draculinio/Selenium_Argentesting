@@ -8,7 +8,7 @@ import commonSteps.CommonSteps;
 public class BackAndForwardTest extends CommonSteps{
 	
 	
-	@Test(description="adelante y atras con women")
+	@Test(description="adelante y atras con women", priority=3)
 	public void womenForwardAndBack() {
 		indexPage.clickWomenLink();
 		Assert.assertEquals("WOMEN ", womenPage.getCategoryText(),"Deberia estar en la seccion Women");

@@ -18,7 +18,7 @@ public class SearchItemsTest extends CommonSteps{
 	
 	
 	
-	@Test()
+	@Test(priority = 8)
 	public void clickWomen() {
 		List<WebElement> myDivs = driver.findElements(By.tagName("div"));
 		myDivs.get(2).click();
@@ -26,7 +26,7 @@ public class SearchItemsTest extends CommonSteps{
 		String title = driver.getTitle();
 	}
 	
-	@Test(description="CP-1254", enabled = false)
+	@Test(description="CP-1254", enabled = false, priority=0)
 	public void searchNoResults() {
 		
 		driver.findElement(By.id("search_query_top")).sendKeys("something");
